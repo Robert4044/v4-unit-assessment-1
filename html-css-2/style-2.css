@@ -1,0 +1,147 @@
+.container-1 {
+    display: flex;
+    background-color: #89fcd6;
+    height: 90px;
+    border-top: 1px solid black;
+}
+
+.text-1 {
+    padding: 20px;
+    text-align: left;
+}
+h2 {
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.container-2 {
+    display: flex;
+    border: 1px dashed black;
+    height: 250px;
+    width: 98vw;
+    margin: auto;
+}
+
+.purple-rectangle {
+    background-color: #48187f;
+    height: 95px;
+    width: 200px;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 100px;
+    border: 3px solid red;
+}
+
+.blue-square {
+    background-color: #0035f8;
+    height: 95px;
+    width: 95px;
+    align-self: center;
+    margin-top: 105px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 8px 0px #000000;
+    border: 1px solid black;
+}
+
+.pink-square {
+    background-color: #d77493;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    align-self: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed black;
+    height: 400px;
+    width: 98vw;
+    margin: auto;
+}
+.small-circle {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 180px;
+    height: 100px;
+    width: 100px;
+    margin-left: 35px;
+}
+.medium-circle {
+    border: 1px solid black;
+    border-radius: 180px;
+    height: 125px;
+    width: 125px;
+    margin-left: 25px;
+}
+.big-circle {
+    border: 1px solid black;
+    border-radius: 180px;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.container-4 {
+    display: grid;
+    border: 1px dashed black;
+    height: 275px;
+    width: 98vw;
+    margin: auto;
+}
+
+.yellow-box {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #f5f4de;
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.green-circle {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: #1c7d1a;
+    border-radius: 180px;
+    border: 1px solid black;
+}
+
+.burgandy-square {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #a22f2e;
+    height: 125px;
+    width: 125px;
+    margin-top: 40px;
+    margin-left: 45px;
+    display: flex;
+}
+.text-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 98px;
+    color: #c2bff5;
+}
+.blue-circle {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100px;
+    width: 100px;
+    background-color: #0035f8;
+    border-radius: 180px;
+    margin-top: 40px;
+    margin-left: 45px;
+    display: flex;
+}
+.fish {
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
