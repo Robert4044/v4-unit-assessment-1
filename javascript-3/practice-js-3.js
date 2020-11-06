@@ -16,7 +16,9 @@ const yourName = 'Robert Martin';
     the function would return 'Joseph's Grocery List'.
 */
 
-//CODE HERE
+function setGroceryListTitle(x) {
+    return `${x}'s Grocery List`;
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -26,8 +28,10 @@ const yourName = 'Robert Martin';
     that takes care of some of the work for getting your page to display correctly.
 */
 
-//CODE HERE
-
+function addItem(item) {
+    return groceries.push(item);
+}
+displayData('bacon');
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
@@ -36,7 +40,10 @@ const yourName = 'Robert Martin';
     Then, invoke the displayData() function inside of your removeItem function.
 */
 
-//CODE HERE
+function removeItem(index) {
+    groceries.splice(index, 1);
+    displayData();
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -49,7 +56,17 @@ const yourName = 'Robert Martin';
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-//CODE HERE
+function checkGroceryCount() {
+    count = groceries.length;
+    console.log(count);
+    if (count > 5) {
+        return 'That looks like a big trip';
+    } else if (count === 1) {
+        return '1 item';
+    } else if (count > 1 && count < 5) {
+        return `${count} items`;
+    }
+}
 
 //////////////////Check out your code!////////////////////
 /*
