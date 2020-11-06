@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = 'Git is a version control system';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,8 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition =
+    'GitHub is a hosting platform for version control and collaboration, creating repositories to upload code';
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +34,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+const init = {
+    description: 'initializes a repository on your local machine',
+    code: 'git init',
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +45,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+const clone = {
+    description: 'clones a repository on your local machine',
+    code: 'git clone',
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +56,11 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+const status = {
+    description:
+        'shows the status of a repository; indicates whether or not changes are staged for commit, etc.',
+    code: 'git status',
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +68,11 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+const add = {
+    description:
+        'tells git that you want to include updates for the next commit',
+    code: 'git add',
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +80,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+const commit = {
+    description: 'saves changes to your local repository',
+    code: 'git commit -m',
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +91,11 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+const addRemote = {
+    description:
+        'adding the location of your remote repository to where you want to push your files...or pull, etc.',
+    code: 'git remote add origin',
+};
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +103,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+    description: 'adds local changes to a remote repository',
+    code: 'git push',
+};

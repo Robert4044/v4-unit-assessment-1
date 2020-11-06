@@ -1,12 +1,12 @@
 //////////////////STEP 1////////////////////
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
-//CODE HERE
+const groceries = ['ham', 'egg', 'cheese'];
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
-//CODE HERE
+const yourName = 'Robert Martin';
 
 //////////////////STEP 3////////////////////
 /*
@@ -50,7 +50,6 @@
 */
 
 //CODE HERE
-
 
 //////////////////Check out your code!////////////////////
 /*
